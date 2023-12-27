@@ -3,7 +3,9 @@
 
 Welcome to the Angular Giphy Search App! This web application allows users to search and explore a vast collection of GIFs using the Giphy API, integrated seamlessly with Angular framework and adorned with beautiful UI enhancements using Tailwind CSS and captivating animations.
 
-https://kevinshogun.github.io/angular-gifs-gifs-web/assets/Gifs-app.mp4
+https://github.com/kevinShogun/angular-gifs-gifs-web/assets/54457637/f33f8435-f1b9-4faf-b1e7-feafb9586189
+
+
 
 # [website](https://kevinshogun.github.io/angular-gifs-gifs-web/)
 
