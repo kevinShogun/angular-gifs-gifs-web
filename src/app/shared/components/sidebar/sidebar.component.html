@@ -1,0 +1,54 @@
+<!-- Sidebar -->
+<div class="fixed inset-y-0 z-10 flex w-80 transition-all transition-ease-linear duration-500"
+  [ngClass]="sidebarOpen ? 'flex' : 'hidden'">
+  <!-- Curvy shape -->
+  <svg class="absolute inset-0 w-full h-full text-white" style="filter: drop-shadow(10px 0 10px #00000030)"
+    preserveAspectRatio="none" viewBox="0 0 309 800" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M268.487 0H0V800H247.32C207.957 725 207.975 492.294 268.487 367.647C329 243 314.906 53.4314 268.487 0Z" />
+  </svg>
+  <!-- Sidebar content -->
+  <div class="z-10 flex flex-col flex-1">
+    <div class="flex items-center justify-between flex-shrink-0 w-64 p-4">
+      <!-- Logo -->
+      <a href="#">
+        <span class="sr-only"></span>
+        <img alt="Kevin logo" class="w-8 h-8 md:w-12 md:h-12 object-cover drop-shadow-xl
+            invert filter
+          " src="https://kevin-yamil-garcia-lopez.netlify.app/static/media/my%20logo%20A.017635b4.png">
+      </a>
+      <p class="font-semibold font-poppins">Gifs applicattion</p>
+      <button (click)="onToggleSideBar()"
+        class="absolute top-4 right-12 font-semibold text-xl block lg:hidden">x</button>
+    </div>
+
+    <!-- list items -->
+    <div class="flex flex-col justify-start items-center">
+
+      <button *ngFor="let tag of tagList" class="w-[50%] py-1 border-b-2 border-white
+        hover:scale-105 hover:border-slate-700
+        transition-all transition-ease-linear duration-500" (click)="onSetHistoryValue(tag)">
+        {{tag | titlecase}}
+      </button>
+
+    </div>
+
+  </div>
+</div>
+
+<div>
+  <button (click)="onToggleSideBar()" class="fixed p-2 text-white bg-black rounded-lg top-5 left-5">
+    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+    <span class="sr-only">Open menu</span>
+  </button>
+
+</div>
+
+<!-- <script>
+  const setup = () => {
+    return {
+      isSidebarOpen: false,
+    }
+  }
+</script> -->

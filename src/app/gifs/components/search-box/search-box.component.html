@@ -1,0 +1,13 @@
+<div class="w-full mt-5 flex justify-center items-center relative">
+  <input type="search"
+    class="w-[90%] pl-12 py-2 border-b-2 focus:border-slate-600 outline-none
+    focus:scale-105 focus:w-[87%]
+    transition-all transition-ease-linear duration-300 text-slate-600 tracking-wide"
+    placeholder="Buscar..."
+    (keyup.enter)="searchTag()"
+    #textTagInput
+  >
+  <i class='bx bx-search-alt
+    text-2xl absolute left-7 md:left-14 text-slate-300
+  '></i>
+</div>

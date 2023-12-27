@@ -1,0 +1,10 @@
+<div class="flex justify-center w-full">
+  <img class="rounded-xl w-full h-[150px] object-cover
+  animate__animated animate__fadeIn animate__slow
+  " [src]="url" alt={{altText}} (load)="onLoad()" [ngStyle]="{display: hasLoaded ? '': 'none'}" />
+
+  <div *ngIf="!hasLoaded" class="w-full h-[150px] flex justify-center  items-center">
+    <img src="assets/loader.svg" alt="loader" />
+
+  </div>
+</div>
