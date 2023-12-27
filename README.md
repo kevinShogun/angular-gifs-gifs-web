@@ -1,27 +1,51 @@
-# GifsApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+# Angular Giphy Search App
 
-## Development server
+Welcome to the Angular Giphy Search App! This web application allows users to search and explore a vast collection of GIFs using the Giphy API, integrated seamlessly with Angular framework and adorned with beautiful UI enhancements using Tailwind CSS and captivating animations.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# [website](https://kevinshogun.github.io/angular-gifs-gifs-web/)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **GIF Search:** Search for a wide variety of GIFs based on keywords or phrases.
+- **Animated UI:** Tailwind CSS brings a sleek and responsive design with seamless animations to captivate users.
+- **Integration with Giphy API:** Retrieve trending and specific GIFs based on user queries.
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Angular:** Front-end development framework used to build the application.
+- **Giphy API:** Integration for fetching and displaying GIFs.
+- **Tailwind CSS:** Utility-first CSS framework for styling with enhanced animations.
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To run the application locally, follow these steps:
 
-## Running end-to-end tests
+1. Clone this repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Obtain a Giphy API key from [Giphy Developers](https://developers.giphy.com/).
+4. Set your API key in the appropriate configuration file.
+5. Run the application using `ng serve` and access it via `http://localhost:4200`.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Usage
 
-## Further help
+- Enter your search query in the designated search bar.
+- Explore the assortment of GIFs generated based on your query.
+- Click on a GIF to view it in a larger format or interact with additional options.
+- Enjoy the seamless experience of discovering and sharing GIFs!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contributing
+
+Contributions are welcome! If you'd like to enhance the application or fix any issues, please follow the standard procedures for contributing to open-source projects.
+
+## Credits
+
+This application was created by [Your Name] and inspired by the desire to provide an engaging and user-friendly platform for discovering and sharing GIFs.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+Special thanks to the creators of Angular, Giphy, Tailwind CSS, and other open-source contributors for their invaluable tools and resources.
